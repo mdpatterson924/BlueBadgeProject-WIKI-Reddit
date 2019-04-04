@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using Wikipedia_Reddit.WebMVC.Models;
+using WikiReddit.Data;
 
 namespace Wikipedia_Reddit.WebMVC
 {

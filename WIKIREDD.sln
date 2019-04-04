@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipedia-Reddit.WebMVC", "Wikipedia-Reddit.WebMVC\Wikipedia-Reddit.WebMVC.csproj", "{DBF280B8-2529-45F5-95DE-FD99647BE464}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiReddit.Data", "WikiReddit.Data\WikiReddit.Data.csproj", "{A31210D4-290B-4BC1-9170-F10D6FDD4DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiReddit.Models", "WikiReddit.Models\WikiReddit.Models.csproj", "{0CA272E7-1C34-4E6A-B9F7-50570C8FFDE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiReddit.Contracts", "WikiReddit.Contracts\WikiReddit.Contracts.csproj", "{45B86DF4-68C2-4B2B-9DD9-3E32E2FB2568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiReddit.Services", "WikiReddit.Services\WikiReddit.Services.csproj", "{7D18D496-2798-406B-A2DE-6A7518E8BA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiReddit.Tests", "WikiReddit.Tests\WikiReddit.Tests.csproj", "{F5A18B69-5A3D-4EEE-AEFA-48DAE3E7A2DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{DBF280B8-2529-45F5-95DE-FD99647BE464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF280B8-2529-45F5-95DE-FD99647BE464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF280B8-2529-45F5-95DE-FD99647BE464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31210D4-290B-4BC1-9170-F10D6FDD4DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31210D4-290B-4BC1-9170-F10D6FDD4DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31210D4-290B-4BC1-9170-F10D6FDD4DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31210D4-290B-4BC1-9170-F10D6FDD4DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA272E7-1C34-4E6A-B9F7-50570C8FFDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA272E7-1C34-4E6A-B9F7-50570C8FFDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA272E7-1C34-4E6A-B9F7-50570C8FFDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA272E7-1C34-4E6A-B9F7-50570C8FFDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B86DF4-68C2-4B2B-9DD9-3E32E2FB2568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B86DF4-68C2-4B2B-9DD9-3E32E2FB2568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B86DF4-68C2-4B2B-9DD9-3E32E2FB2568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B86DF4-68C2-4B2B-9DD9-3E32E2FB2568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D18D496-2798-406B-A2DE-6A7518E8BA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D18D496-2798-406B-A2DE-6A7518E8BA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D18D496-2798-406B-A2DE-6A7518E8BA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D18D496-2798-406B-A2DE-6A7518E8BA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A18B69-5A3D-4EEE-AEFA-48DAE3E7A2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A18B69-5A3D-4EEE-AEFA-48DAE3E7A2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A18B69-5A3D-4EEE-AEFA-48DAE3E7A2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A18B69-5A3D-4EEE-AEFA-48DAE3E7A2DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

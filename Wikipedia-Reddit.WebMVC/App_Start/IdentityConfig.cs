@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Wikipedia_Reddit.WebMVC.Models;
+using WikiReddit.Data;
 
 namespace Wikipedia_Reddit.WebMVC
 {

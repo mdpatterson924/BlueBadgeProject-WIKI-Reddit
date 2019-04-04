@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Wikipedia_Reddit.WebMVC.Models;
+using WikiReddit.Data;
 
 namespace Wikipedia_Reddit.WebMVC.Controllers
 {

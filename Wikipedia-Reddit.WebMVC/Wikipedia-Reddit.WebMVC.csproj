@@ -180,7 +180,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -257,6 +256,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WikiReddit.Data\WikiReddit.Data.csproj">
+      <Project>{a31210d4-290b-4bc1-9170-f10d6fdd4dc1}</Project>
+      <Name>WikiReddit.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WikiReddit.Models\WikiReddit.Models.csproj">
+      <Project>{0ca272e7-1c34-4e6a-b9f7-50570c8ffde4}</Project>
+      <Name>WikiReddit.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WikiReddit.Services\WikiReddit.Services.csproj">
+      <Project>{7d18d496-2798-406b-a2de-6a7518e8ba58}</Project>
+      <Name>WikiReddit.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
